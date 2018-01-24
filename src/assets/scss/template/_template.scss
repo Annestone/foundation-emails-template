@@ -5,13 +5,15 @@
 body,
 html, 
 .body {
-  background: #f3f3f3 !important;
+ // background: #44f30a !important;
 }
 
 .container.header {
-  background: #f3f3f3;
+  background: #f3f358;
 }
-
+.container{
+  max-width: 800px;
+}
 .body-drip {
   border-top: 8px solid #663399;
 }
@@ -36,24 +38,64 @@ html,
 
 .header .container {
   background: transparent;
+  $body-font-family: Helvetica, Arial, sans-serif;
 }
 
 // Social Media
 table.button.facebook table td {
   background: #3B5998 !important;
-  border-color: #3B5998;
-}
+  border-color: #667898;
+  $button-rounded: $global-rounded;
 
-table.button.twitter table td {
-  background: #1daced !important;
-  border-color: #1daced;
-}
+  table.button.facebook table td a {
+    text-decoration-line: none;
+    list-style-type: none;
+  }
 
-table.button.google table td {
-  background: #DB4A39 !important;
-  border-color: #DB4A39;
-}
+  table.button.twitter table td a{
+    background: #1daced !important;
+    border-color: #1daced;
+  }
 
-.wrapper.secondary {
-  background: #f3f3f3;
+  table.button.google table td {
+    background: #dbaeca !important;
+    border-color: #5fdb5f;
+  }
+  .wrapper.secondary {
+    background: #f3f3f3;
+  }
+  ul li {
+    height: 20em;
+    color: #44f30a !important;
+  }
+  .primary{
+    height: 20em;
+  }
+  .links{
+    color: #44f30a;
+  }
+  p.lead{
+    color:darkslategrey;
+    }
+  a, a:visited {
+    text-decoration: underline;
+  }
+  h3{
+   color: #76e6e8;
+  }
+  a {
+    text-decoration: none;
+    line-height: inherit; }
+
+  a:hover, a:focus {
+    color: #007ba0; }
+  a img {
+    border: none;
+  }
+  table.button table td{
+    background: #1daced;
+  }
+  #no-bullet{
+    list-style-type: none;
+  }
 }

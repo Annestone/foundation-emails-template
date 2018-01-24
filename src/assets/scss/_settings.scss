@@ -16,7 +16,7 @@
 // 1. Global
 // ---------
 
-$primary-color: #2199e8;
+$primary-color: #76e6e8;
 $secondary-color: #777777;
 $success-color: #3adb76;
 $warning-color: #ffae00;
@@ -37,7 +37,6 @@ $global-margin: 16px;
 $global-radius: 3px;
 $global-rounded: 500px;
 $global-breakpoint: $global-width + $global-gutter;
-
 // 2. Grid
 // -------
 
@@ -90,6 +89,7 @@ $anchor-color-visited: $anchor-color;
 $anchor-color-hover: darken($primary-color, 10%);
 $anchor-color-active: $anchor-color-hover;
 $stat-font-size: 40px;
+
 
 // 5. Button
 // ---------

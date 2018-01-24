@@ -1,44 +1,105 @@
----
-subject: My Newsletter Email Template Subject
----
 
 <container>
 
   <spacer size="16"></spacer>
 
-  <row>
-    <columns>
-      <h1 class="text-center">The Insider</h1>
-      <center>
-        <img src="http://placehold.it/500x200">
-      </center>
+<row>
+    <columns small="12" large="6">
+ <center>   <!-- bleibt hier bestehen da es nicht von allen Emailempfängern gelesen wird -->
+    <row><h2 class="text">Night NEWS</h2></row>
+     <img src="http://lorempixel.com/output/nightlife-q-c-850-480-1.jpg">
+ </center>
 
-      <spacer size="16"></spacer>
-      
-      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa itaque illo doloribus soluta expedita dolores commodi fuga odit.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto reiciendis eos magni deleniti accusamus tempore, consectetur! Maxime amet, exercitationem nihil fugit eius esse voluptatum ab incidunt minima, saepe reiciendis ipsum.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto reiciendis eos magni deleniti accusamus tempore, consectetur! Maxime amet, exercitationem nihil fugit eius esse voluptatum ab incidunt minima, saepe reiciendis ipsum.</p>
+    <spacer size="16"></spacer>
 
-      <row>
-        <columns large="6">
+
+
+     <h3 class="lead">Party machen müde!</h3>
+  <spacer size="16"></spacer>
+      <p class="lead">  Neuesten Berichten zufolge, soll das Amt für soziop Bildung  </br> rauben Partys Menschen die Arbeitsenergie, die Sie zum arbeiten brauchen.Unbestätigten Berichten zufolge wurde noch nichts bestätigt.</p>
+      <p class="text">Kritische Berichte sehen das Ganze als neue Idee von den gelangweilten Eliten..., consectetur! Maxime amet, exercitationem nihil fugit eius esse voluptatum ab incidunt minima, saepe reiciendis ipsum.</p>
+      <p>Lorem ipsum dolor sitweewectetur adipisicing elit. Architecto reiciendis eos magni deleniti accusamus tempore, consectetur! Maxime amet, exercitationem nihil fugit eius esse voluptatum ab incidunt minima, saepe reiciendis ipsum.</p>
+    </columns>
+
+ <row>
+      <columns small="12" large="12">
+          <row><h2>Secondary Section</h2></row>
+          <p>TESTTEST</p>
+      </columns>
+ </row>
+
+
+
+      <row id="no-bullet">
+        <columns small="12" large="6">
+          <h4>More Reading:</h4>
+         <ul>
+              <li><a class="links" href="http://lorempixel.com/400/200/">Not the stress from the WORLD</a></li>
+              <li><a href="http://lorempixel.com/400/200/">Lorem Ipsum Dolor Sit Amet</a></li>
+              <li><a href="#">Lorem Ipsum Dolor Sit Amet</a></li>
+          </ul>
+        </columns>
+
+        <columns small="12" large="6">
           <h4>More Reading:</h4>
           <ul>
-            <li><a href="#">Lorem Ipsum Dolor Sit Amet</a></li>
-            <li><a href="#">Lorem Ipsum Dolor Sit Amet</a></li>
-            <li><a href="#">Lorem Ipsum Dolor Sit Amet</a></li>
+            <li><a href="http://lorempixel.com/400/200/">menü</a></li>
+            <li><a href="http://lorempixel.com/400/200/">Lorem Ipsum Dolor Sit Amet</a></li>
+            <li><a href="http://lorempixel.com/400/200/">Lorem Ipsum Dolor Sit Amet</a></li>
           </ul>
+
         </columns>
-        <columns>
-          <h4>Get Involved:</h4>
-          <ul>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Instagram</a></li>
-          </ul>
-        </columns>
+
+          <columns large="6">
+              <h5>Connect With Us:</h5>
+              <button class="facebook expand" href="http://zurb.com">Facebook</button>
+              <button class="twitter expand" href="http://zurb.com">Twitter</button>
+              <button class="google expand" href="http://zurb.com">Google+</button>
+          </columns>
       </row>
 
-      <p><small>You received this email because you're signed up to get updates from us. <a href="#">Click here to unsubscribe.</a></small></p>
-    </columns>
-  </row>
-</container>
+
+
+
+   <row>
+       <columns large="6">
+           <h5>Contact Info:</h5>
+           <p>Phone: 408-341-0600</p>
+           <p>Email: <a href="mailto:foundation@zurb.com">foundation@zurb.com</a></p>
+       </columns>
+
+         <callout>
+           <p>Successfully avoided Kraken. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+         </callout>
+         <callout class="primary">
+           <p>Successfully avoided Kraken. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+         </callout>
+
+
+                 <button class="button" type="button" data-toggle="example-dropdown">Toggle Dropdown</button>
+                 <div class="dropdown-pane" id="example-dropdown" data-dropdown data-auto-focus="true">
+                   Example form in a dropdown.
+                   <form>
+                     <div class="row">
+                       <div class="medium-6 columns">
+                         <label>Name
+                           <input type="text" placeholder="MR PARTY.">
+                         </label>
+                       </div>
+                       <div class="medium-6 columns">
+                         <label>Rank
+                           <input type="text" placeholder="Captain">
+                         </label>
+                       </div>
+                     </div>
+                   </form>
+                 </div>
+
+                 <div class="dropdown-pane" id="example-dropdown-1" data-dropdown data-hover="true" data-hover-pane="true">
+                   Just some junk that needs to be said. Or not. Your choice.
+                 </div>
+
+
+        </row>
+</row>
+ </container>
